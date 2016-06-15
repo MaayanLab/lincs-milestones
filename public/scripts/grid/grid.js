@@ -308,9 +308,9 @@ function Docent3Controller($window, $scope, $http, $modal, d3, d3Data, lodash) {
               var that = this;
               lodash.each(d.info, function(pertObj) {
                 if (pertIds.indexOf(pertObj._id) > -1) {
-                  d3.select(that).selectAll('.highlight')
-                    .style('opacity', 1)
-                    .style('fill', 'yellow');
+                  //d3.select(that).selectAll('.highlight')
+                  //  .style('opacity', 1)
+                  //  .style('fill', 'yellow');
                 }
               });
             });
